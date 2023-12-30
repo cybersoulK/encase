@@ -15,6 +15,8 @@ impl_vector!(4, glam::Vec4, f32; using AsRef AsMut From);
 impl_vector!(4, glam::UVec4, u32; using AsRef AsMut From);
 impl_vector!(4, glam::IVec4, i32; using AsRef AsMut From);
 
+impl_vector!(4, glam::Quat, f32; using AsRef AsMut From);
+
 impl_matrix!(2, 2, glam::Mat2, f32);
 impl_matrix!(3, 3, glam::Mat3, f32);
 impl_matrix!(4, 4, glam::Mat4, f32);
